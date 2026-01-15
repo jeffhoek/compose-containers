@@ -11,4 +11,5 @@ wheels/
 
 .env
 opensearch-data1/*
+.ipynb_checkpoints/
 
