@@ -68,9 +68,12 @@ services:
     ports:
       - "5080-5090:5080-5090"
     platform: linux/amd64
+    volumes:
+      - pinecone_data:/data
 
 volumes:
   mongodb_data:
   mongodb_config:
   mongodb_mongot:
   opensearch-data1:
+  pinecone_data:
